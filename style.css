@@ -1,0 +1,1380 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(248, 245, 240);
+    font-family: sans-serif;
+    color: rgb(56, 55, 55);
+}
+
+.banner{
+    background-image: url("images/Hero\ Section.svg");
+    background-repeat: no-repeat;
+    height: 130vh;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin: 0;
+   
+}
+
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px  180px 30px 180px;
+ 
+    
+   
+}
+
+.menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    color: rgb(37, 37, 37);
+    font-weight: 500;
+    letter-spacing: 0.03rem;
+}
+
+.p-menu{
+    cursor: pointer;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(255, 96, 230);
+    font-weight: bold;
+    color: rgb(56, 54, 54);
+    letter-spacing: 0.03rem;
+    cursor: pointer;
+}
+
+
+.main-heading-paragraph{
+    background-image: url('images/Line.png');
+    font-size: 3rem;
+    background-repeat: no-repeat;
+    color: rgb(56, 55, 55);
+    background-position: center left;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.paragraph{
+    margin-top: 40px;
+    letter-spacing: 0.03rem;
+    line-height: 2rem;
+    text-align: center;
+
+}
+
+.emial-input{
+    margin-top: 40px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+    left:50px;
+
+}
+
+.input-email{
+    height: 30px;
+    padding:10px 30px;
+    border-radius: 30px;
+    width: 400px;
+    border: none;
+    outline: none;
+}
+
+.join-btn{
+    position: relative;
+    right:100px;
+    padding:10px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 96, 230);
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+}
+
+.section-one{
+   
+    
+    background-image: url("images/line\ curve.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 60vh;
+    background-size: contain;
+   
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    height: 600px;
+}
+
+
+
+.heading-inside{
+    background-image: url("images/underline.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 120px;
+    font-size: 1.5rem;
+}
+
+.partners-container{
+    display: flex;
+    margin-top: 60px;
+    background-color: white;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 40px;
+}
+.partners{
+    margin-right: 80px;
+}
+
+
+
+.partners-container p{
+ line-height: 2rem;
+}
+
+
+.partners-heading{
+    margin-bottom: 20px;
+}
+
+.twitter{
+    background-color: rgb(255, 96, 230);
+ width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+   
+   
+   padding: 40px;
+    
+}
+
+
+
+.pinterest{
+    background-color: rgb(240, 187, 232);
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+   display: none;
+   width: 400px;
+   padding: 40px;
+    
+}
+
+.twitter-heading{
+    margin-bottom: 10px;
+display: flex;
+width: 400px;
+justify-content: space-between;
+}
+
+
+
+
+.buttons{
+    display: flex;
+    position: relative;
+    left:80px;
+    cursor: pointer;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem ;
+    margin-top: 80px;
+}
+
+.heading-section-two{
+    margin-bottom: 60px;
+}
+
+.section-three{
+    background-image: url("images/How\ we\ Work\ Section\ -\ 3.svg");
+    height: 115vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+   
+}
+
+.linkedin-circle{
+    width: 40px;
+    background-color: white;
+   
+    border-radius: 50px;
+}
+
+.content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   position: relative;
+   top:300px;
+
+}
+
+.heading-section-three,
+.heading-section-three-two{
+    margin-bottom: 50px;
+}
+
+.section-four{
+    display: flex;
+   justify-content:center ;
+   line-height: 2rem;
+   letter-spacing: 0.03rem;
+   
+}
+
+.four-paragraph{
+    margin-top: 20px;
+}
+
+.section-five{
+    display: flex;
+   justify-content:center ;
+   line-height: 2rem;
+   letter-spacing: 0.03rem;
+   
+}
+
+.right-five,
+.left-six{
+    margin-top: 50px;
+}
+
+.section-six{
+    display: flex;
+   justify-content:center ;
+   line-height: 2rem;
+   letter-spacing: 0.03rem;
+   
+}
+
+.section-seven{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+   
+    font-size: 1.5rem;
+}
+
+.first-row,
+.second-row{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.wrap{
+    background-image: url("images/wrap.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third-row{
+    background-image: url("images/underline2.svg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-top: 80px;
+    text-align: left;
+    position: relative;
+   right:140px
+}
+
+.section-eight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    
+}
+
+.people{
+    margin-top: 120px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.people-second-block{
+    margin-top: 120px;
+    width: 1500px;
+    justify-content: space-around;
+    display: none;
+
+}
+
+
+.small-paragraph{
+    line-height: 2.5rem;
+}
+.paragraph-people{
+    letter-spacing: 0.06rem;
+    line-height: 2rem ;
+}
+
+.person-one,
+.person-two,
+.person-three{
+    background-color: rgb(240, 187, 232);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+
+
+.person-one,
+.person-two,
+.person-three{
+    background-color: rgb(240, 187, 232);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+
+
+.person-one-sec,
+.person-two-sec,
+.person-three-sec{
+    background-color: rgb(240, 187, 232);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.person-one-sec img,
+.person-two-sec img,
+.person-three-sec img {
+  width: 80px; /* Set width to 100% to fill the container */
+  height: 80px; /* Let the height adjust according to the aspect ratio */
+ 
+  object-fit: contain; /* Maintain aspect ratio while fitting within the container */
+  border-radius: 50%; /* Make the image round */
+}
+
+
+
+
+
+
+
+.name{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.section-nine{
+    display: flex;
+   justify-content: center;
+    margin-top: 60px;
+   
+
+
+}
+
+
+
+
+
+
+.left-nine{
+     width: 600px;
+    height: 530px;
+    background-color: rgb(255, 96, 230);
+    border-radius: 20px;
+}
+
+.paragraph-nine{
+    margin-top: 30px;
+    margin-left: 50px;
+    letter-spacing: 0.06rem;
+    line-height: 2rem ;
+}
+
+.images{
+    display: flex;
+    justify-content: center ;
+    width: 600px;
+    margin-top: 60px;
+}
+.images img{
+    border-radius: 20px;
+    width: 600px;
+}
+
+
+.right-nine{
+    background-color: white;
+    width: 600px;
+    height: 530px;
+    border-radius: 20px;
+    margin-left: 30px;
+    
+}
+
+.txt-heading{
+    position: relative;
+    top:50px;
+    left: 50px;
+    letter-spacing: 0.06rem;
+    line-height: 2rem ;
+}
+
+.charity-paragraph{
+    margin-top: 30px;
+}
+
+.charity-heading{
+    font-size: 2.6rem;
+}
+
+.heading-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading-input-paragraph{
+    margin-top: 30px;
+}
+
+heading-bottom{
+    font-size: 2.5rem;
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.insta,
+.facebook,
+.linkedin{
+    cursor: pointer;
+}
+
+.emial-input-bottom{
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 80px;
+}
+
+.countdown-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.countdown{
+    display: flex;
+    font-size: 7rem;
+    margin-top: 40px;
+    background-image: url();
+    color: rgb(255, 96, 230);
+}
+
+.countdown-naming{
+display: flex;
+justify-content: space-between;
+width: 810px;
+font-size: 2rem;
+}
+
+
+.h,
+.m,
+.s{
+   position: relative;
+   left:70px
+}
+.footer-mobile{
+    display: none;
+}
+
+.footer{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.tablet{
+    display: none;
+}
+
+
+.footer-tablet{
+    display: none;
+}
+
+
+@media(max-width: 480px){
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.desktop{
+    display: none;
+}
+
+.mobile{
+    display: block;
+    overflow-x: none;
+   
+}
+
+.banner{
+    background-image: url("images/Hero\ Section.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+   
+}
+
+body{
+    background-color: rgb(248, 245, 240);
+    font-family: sans-serif;
+    color: rgb(56, 55, 55);
+    
+}
+
+
+
+.header-mobile{
+
+ display: flex;
+ justify-content: space-between;
+ padding:10px 20px;
+ width: 390px;
+ 
+
+}
+
+
+.logo{
+    width: 160px;
+}
+
+.hamburger{
+    width:80px;
+}
+
+.footer{
+    display: none;
+}
+
+.footer-mobile{
+    display: block;
+}
+
+
+.main-heading-paragraph-mobile{
+    background-image: url('images/Line.png');
+    font-size: 1rem;
+    background-repeat: no-repeat;
+    color: rgb(56, 55, 55);
+    background-position: center left 5px;
+    text-align: center;
+    background-size: 190px;
+    margin-top: 100px;
+}
+
+.paragraph-mobile{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+
+
+.emial-input-mobile{
+    margin-top: 40px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+    left:50px;
+
+}
+
+.input-email-mobile{
+    height: 30px;
+    padding:10px 30px;
+    border-radius: 30px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+
+
+.countdown-heading-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 0.9rem;
+    width: 480px;
+    text-align: center;
+}
+
+.countdown-mobile{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 40px;
+    background-image: url();
+    color: rgb(255, 96, 230);
+}
+
+.countdown-naming-mobile{
+display: flex;
+justify-content: space-between;
+width: 280px;
+margin-top: 20px;
+margin-left: 20px;
+
+font-size: 1rem;
+}
+
+
+
+.heading-inside-mobile{
+   text-align: center;
+    font-size: 0.9rem;
+    background-image: url("images/underline.svg");
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: bottom  right 10px;
+}
+
+.partners-mobile{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+
+    
+   
+}
+
+.section-one-mobile{
+    background-image: url("images/line\ curve.svg");
+    background-size: 270px;
+    height: 88vh;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+
+.partners-h-p{
+    background-color: white;
+    padding: 20px;
+    border-radius: 40px;
+
+    
+}
+
+.partners-heading-mobile{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.partners-paragraph{
+    line-height: 2rem;
+}
+
+.pinterest-mobile{
+    display: none;
+  
+   
+}
+
+.twitter-mobile{
+    background-color: rgb(255, 96, 230);
+    padding: 20px 0px;
+    line-height: 2rem;
+    border-radius: 40px;
+    width: 320px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.buttons-mobile{
+    display: flex;
+    margin-top: 60px;
+}
+
+.pinterest-mobile,
+.linkedin-mobile{
+    display: none;
+    background-color: rgb(255, 96, 230);
+    padding: 20px 0px;
+    line-height: 2rem;
+    border-radius: 40px;
+    width: 320px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+
+.section-two-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem ;
+    margin-top: 80px;
+}
+
+.section-two-mobile img{
+ width: 440px;
+ object-fit: contain;
+}
+
+
+
+.heading-section-two-mobile{
+    margin-bottom: 60px;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+.heading-section-three-mobile{
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+
+
+.content-section-three{
+    background-image: url("images/How\ we\ Work\ Section\ -\ 3.svg");
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1rem;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+    
+}
+
+.work-with{
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5rem
+}
+
+.paragraph-three-mobile{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1.5rem
+}
+
+.section-four-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.5rem
+}
+
+.section-four-mobile img{
+width: 300px;
+}
+
+.section-six-mobile,
+.section-five-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    text-align: center;
+    line-height: 1.5rem
+    
+}
+
+.section-six-mobile img,
+.section-five-mobile img{
+    width: 300px;
+}
+
+
+.section-seven-mobile{
+    margin-top: 60px;
+    line-height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    text-align: center;
+
+    
+    
+}
+
+.third-row-mobile{
+    background-image: url("images/underline2.svg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 120px;
+    
+  
+}
+
+
+.section-eight-mobile{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons-ppl{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.person-two-mobile,
+.person-three-mobile{
+    display: none;
+}
+
+.person-one-mobile,
+.person-two-mobile,
+.person-three-mobile{
+    background-color: rgb(240, 187, 232);
+    padding:40px 20px;
+    border-radius: 20px;
+}
+
+
+
+.person-one-sec,
+.person-two-sec,
+.person-three-sec{
+    background-color: rgb(240, 187, 232);
+    padding:40px 20px;
+    border-radius: 20px;
+    display: none;
+}
+
+.charity-mobile{
+    margin-top: 40px;
+    background-color: rgb(240, 187, 232);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 20px;
+    line-height: 1.8rem;
+}
+
+
+.charity-paragraph-mobile{
+    margin-top: 40px;
+}
+
+.charity-heading-mobile{
+    margin-top: 40px;
+}
+.charity-mobile img{
+    margin-top: 30px;
+     width: 340px;
+}
+
+.person-one-sec img,
+.person-two-sec img,
+.person-three-sec img {
+  width: 80px; /* Set width to 100% to fill the container */
+  height: 80px; /* Let the height adjust according to the aspect ratio */
+ 
+  object-fit: contain; /* Maintain aspect ratio while fitting within the container */
+  border-radius: 50%; /* Make the image round */
+}
+
+
+.people-mobile{
+    display: flex;
+}
+
+
+
+.footer-mobile{
+    text-align: center;
+    margin-top: 40px;
+   
+}
+
+.bottom-mobile{
+    margin-top: 40px;
+}
+.copywriting-mobile{
+    width: 120px;
+    margin-top: 30px;
+    padding: 20px;
+   
+}
+.menu-mobile-bottom{
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.menu-mobile{
+    line-height: 2.2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgb(255, 96, 230);
+    width: 300px;
+    
+   
+}
+
+.container-menu-mobile{
+    position: absolute;
+    left:15px;
+    transform: translateX(-50%,-50%);
+    display: none;
+
+    
+}
+
+
+.social-media-mobile{
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-email-mobile{
+    width: 300px;
+}
+
+.heading-input-paragraph{
+    line-height: 1.8rem;
+}
+
+.tablet{
+  display: none;
+}
+
+
+.footer-tablet{
+    display: none;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 1024px){
+  
+
+    .desktop{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+    
+    .tablet{
+        display: block;
+    }
+    .menu-tablet{
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+    }
+
+    .header-tablet{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 30px;
+        align-items: center;
+    }
+
+    .banner-tablet{
+        background-image: url("images/Hero\ Section.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .main-heading-paragraph-tablet{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 40px;
+    }
+
+    .countdown-tablet{
+        display: flex;
+        font-size: 4rem;
+        margin-top: 40px;
+        background-image: url();
+        color: rgb(255, 96, 230);
+    }
+    
+    .countdown-naming-tablet{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    font-size: 1.2rem;
+    }
+
+
+    
+.section-one-tablet{
+   
+    
+    background-image: url("images/line\ curve.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 40vh;
+    background-size: contain;
+    
+   
+}
+
+
+.heading-inside-tablet{
+    background-image: url("images/underline.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 120px;
+    font-size: 1.5rem;
+    margin-top: 120px;
+}
+
+.section-one-tablet{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    height: 120vh;
+    margin-top: 300px;
+}
+
+.partners-tablet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+   
+}
+
+.partners-tablet p{
+    line-height: 1.8rem;
+}
+
+.partners-container-tablet{
+    background-color: white;
+    border-radius: 30px;
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section-one-tablet{
+   
+    
+    background-image: url("images/line\ curve.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 80vh;
+    background-size: contain;
+   
+}
+
+.section-two-tablet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem ;
+    margin-top: 420px;
+}
+
+.section-two-tablet img{
+  width: 600px;
+}
+
+.section-three-tablet{
+    background-image: url("images/How\ we\ Work\ Section\ -\ 3.svg");
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1.2rem;
+   
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:200px;
+ 
+ }
+
+ .section-four-tablet,
+ .section-five-tablet,
+ .section-six-tablet{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.8rem;
+    align-items: center;
+ }
+
+ .section-four-tablet{
+    margin-top: 60px;
+ }
+
+ .paragraph-twitter,
+ .paragraph-pinterest{
+    line-height: 1.8rem;
+ }
+
+
+ .section-seven-tablet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+   
+    font-size: 1.2rem;
+}
+
+
+.section-eight-tablet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    width: 1000px;
+}
+
+
+.people-tablet{
+    margin-top: 120px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+
+.people-second-block-tablet{
+    margin-top: 120px;
+    width: 1000px;
+    justify-content: space-around;
+    text-align: center;
+    display: none;
+    
+}
+
+.person-one-tablet,
+.person-two-tablet,
+.person-three-tablet{
+    background-color: rgb(240, 187, 232);
+    padding: 50px;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.person-one-sec-tablet,
+.person-two-sec-tablet,
+.person-three-sec-tablet{
+    background-color: rgb(240, 187, 232);
+    padding: 50px;
+    border-radius: 50px;
+    width: 200px;
+    
+}
+
+.person-one-sec-tablet img,
+.person-two-sec-tablet img,
+.person-three-sec-tablet img {
+  width: 80px; /* Set width to 100% to fill the container */
+  height: 80px; /* Let the height adjust according to the aspect ratio */
+ 
+  object-fit: contain; /* Maintain aspect ratio while fitting within the container */
+  border-radius: 50%; /* Make the image round */
+}
+
+
+
+
+.top-tablet{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    
+}
+
+
+.name{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.section-nine{
+    display: flex;
+    width: 1000px;
+   justify-content: space-around;
+    margin-top: 60px;
+   
+
+
+}
+
+
+
+
+
+
+.left-nine{
+     width: 450px;
+    height: 530px;
+    background-color: rgb(255, 96, 230);
+    border-radius: 20px;
+}
+
+.paragraph-nine{
+    margin-top: 30px;
+    margin-left: 50px;
+    letter-spacing: 0.06rem;
+    line-height: 2rem ;
+}
+
+/*this is the container*/
+.images{
+    display: flex;
+    justify-content: center ;
+    width: 450px;
+    margin-top: 60px;
+}
+
+/*The actual image inside the container*/
+.images img{
+    border-radius: 20px;
+    width: 450px;
+}
+
+
+.right-nine{
+    background-color: white;
+    width: 450px;
+    height: 530px;
+    border-radius: 20px;
+    margin-left: 30px;
+    
+}
+
+
+.footer-tablet{
+    display: block;
+    margin-top: 80px;
+}
+
+
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-two.css">
+    <title>Success Message</title>
+</head>
+<body>
+  <div class="main-container">
+    <h1 class="heading">Success!</h1>
+    <img class="checkmark" src="images/check-7090.svg" alt="check">
+    <p class="paragraph">You successfully joined.<br>For confirmation check your email or  spam folder.</p>
+    <button id="get-back" class="get-back">Get back to our page</button>
+  </div>
+
+  <script>
+
+  const getBackBtn = document.getElementById("get-back");
+
+  getBackBtn.addEventListener("click", ()=>{
+    window.location.href = "index.html";
+  })
+
+
+
+
+
+
+  </script>
+</body>
+</html>

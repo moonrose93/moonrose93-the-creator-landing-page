@@ -1,0 +1,1019 @@
+For this project :
+
+The header is outside the banner container and its passed a background color.
+then to the banner container is passed a backgound image.We must make sure that the background image is passed as  svg transparanet so that the containers color wont destinguish also to the body is passed a color :
+
+body{
+    background-color: rgb(248, 245, 240);
+    font-family: sans-serif;
+}
+
+.banner{
+    background-image: url("images/Hero\ Section.svg");
+    background-repeat: no-repeat;
+    height: 110vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin: 0;
+   
+}
+
+Yes, adjusting the height of the .banner container to 110vh should help ensure that the background image is fully displayed. By setting the height to 110vh, you're essentially making the container 10% taller than the viewport height, allowing the background image to be fully visible without being cut off.
+
+Here we set the height of the banner to 110vh so that the image to be shown whole.
+
+
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 60px  180px 30px 180px;
+ 
+    
+   
+}
+
+.menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    color: rgb(37, 37, 37);
+    font-weight: 500;
+    letter-spacing: 0.03rem;
+}
+
+.p-menu{
+    cursor: pointer;
+}
+
+Also for the join btn we set a position relative and moved the btn to the right the element will be moved relative to the parent container -emial-input we need to escape using position absolute. And we also set the same padding and border radius properties as the input.
+
+.join-btn{
+    position: relative;
+    right:100px;
+    padding:10px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 96, 230);
+}
+
+
+So in the next container we created another heading container  and we passed the underline image to the heading then we adjust the position.
+So for the main heading container another background image for the child container another background image
+
+
+    <div class="heading-two">
+        <div class="heading-inside">
+            <h1>Contact us today to explore<br> partnership opportunities!</h1>
+        </div>
+     </div>
+
+
+
+.section-one{
+   
+    
+    background-image: url("images/line\ curve.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 60vh;
+    background-size: contain;
+   
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    height: 600px;
+}
+
+.heading-two{
+    margin-top: 80px;
+}
+
+.heading-inside{
+    background-image: url("images/underline.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 120px;
+    font-size: 1.5rem;
+}
+
+Further what we did here we set the partners container inside heading-two container and we diplayed flex the heading-two conteiner with flex diraction colum and align items colum to bring them to the center. Besause you remember to bring them to the center when the flex diraction is colum we need to use align items to bring them horizontally at the center.
+
+
+
+    <div class="section-one">
+        
+        <div class="heading-inside">
+            <h1>Contact us today to explore<br> partnership opportunities!</h1>
+        </div>
+          <div class="partners-container">
+        <div class="partners">
+            <h1 class="partners-heading">Partners:</h1>
+            <p>Our creative agency forms strong partnerships with<br> diverse businesses, from startups to global brands,<br> based on trust, respect, and a shared vision for<br> success.</p>
+        </div>
+        <div class="twitter">
+           <div class="twitter-heading">
+            <img src="images/social media icons/twitter.svg" alt="twitter">
+            <p>2008 — Today</p>
+           </div>
+          <p>Provides communication between the agency<br> and brands. Collects customer feedback and<br> encourages discussion about the product,<br> which helps improve it.</p>
+        </div>
+        <div class="pinterest">
+            <div class="twitter-heading">
+             <img src="images/social media icons/pinterest.svg" alt="twitter">
+             <p>2009 — Today</p>
+            </div>
+           <p>Provide unlimited access to artist and designer boards. Provides communication with them and creative partnership. Provides participation in creative conferences</p>
+         </div>
+       <div class="buttons">
+        <img src="images/Icon Button back.svg" alt="iccon back">
+        <img src="images/Icon Button next.svg" alt="icon next">
+       </div>
+     </div>
+
+   
+
+    </div>
+
+    This is our entire first section
+
+
+Remember when adding padding to containers make sure the items are flexed and ajust to the center so that the padding will be equally distributed from all sides.
+
+
+Also in order justify content to work we need to set width to the container:
+
+
+.twitter{
+    background-color: rgb(255, 96, 230);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 80px;
+    
+}
+
+.twitter-heading{
+display: flex;
+width: 400px;
+justify-content: space-between;
+}
+
+Entire styling for our section:
+
+.section-one{
+   
+    
+    background-image: url("images/line\ curve.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 60vh;
+    background-size: contain;
+   
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    height: 600px;
+}
+
+
+
+.heading-inside{
+    background-image: url("images/underline.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 120px;
+    font-size: 1.5rem;
+}
+
+.partners-container{
+    display: flex;
+    margin-top: 60px;
+    background-color: white;
+    height: 200px;
+    width: 1000px;
+    padding: 60px;
+    border-radius: 40px;
+}
+
+
+.partners-container p{
+ line-height: 2rem;
+}
+
+
+.partners-heading{
+    margin-bottom: 20px;
+}
+
+.twitter{
+    background-color: rgb(255, 96, 230);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+   position: relative;
+   left: 80px;
+    
+}
+
+.pinterest{
+    background-color: rgb(240, 187, 232);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+   position: relative;
+   left: 80px;
+   display: none;
+    
+}
+
+.twitter-heading{
+display: flex;
+width: 400px;
+justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    position: relative;
+    left:80px;
+    cursor: pointer;
+}
+
+We took the same styling for the pinterest block as for the twitter but just changed the background color.
+
+
+See here for section 3 we had to set the content inside the other div and the main div is used so set the background image the child div will be used to set a content and we want to add a position relative and move the child div 50px from the top. the child div will be moved relativy to the parent div 300px from the top.
+
+.content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   top:300px;
+}
+   Using position relative when we really dont have another option but not position absolute. also we set margins to offset the blocks for each block we used margins. to lower the block down.
+
+
+
+   So for the section nine:
+
+.section-nine{
+    display: flex;
+   justify-content: center;
+    margin-top: 60px;
+   
+
+
+}
+
+
+
+
+
+
+.left-nine{
+     width: 600px;
+    height: 530px;
+    background-color: rgb(255, 96, 230);
+    border-radius: 20px;
+}
+
+.paragraph-nine{
+    margin-top: 30px;
+    margin-left: 50px;
+    letter-spacing: 0.06rem;
+    line-height: 2rem ;
+}
+
+.images{
+    display: flex;
+    justify-content: center ;
+    width: 600px;
+    margin-top: 60px;
+}
+.images img{
+    border-radius: 20px;
+    width: 600px;
+}
+
+
+.right-nine{
+    background-color: white;
+    width: 600px;
+    height: 530px;
+    border-radius: 20px;
+    margin-left: 30px;
+    
+}
+
+.txt-heading{
+    position: relative;
+    top:50px;
+    left: 50px;
+    letter-spacing: 0.06rem;
+    line-height: 2rem ;
+}
+
+.charity-paragraph{
+    margin-top: 30px;
+}
+
+.charity-heading{
+    font-size: 2.6rem;
+}
+
+HTML:
+
+<div class="section-nine">
+<div class="left-nine"><div class="images"><img src="images/Group 3.png" alt="group3"></div>
+    <p class="paragraph-nine">We've participated in events for children's<br> education, health initiatives, and disaster<br> relief. We're dedicated to ongoing<br> involvement and exploring new<br> opportunities.</p></div>
+<div class="right-nine">
+    <div class="txt-heading">
+        <h1 class="charity-heading">Charity</h1>
+    <p class="charity-paragraph">Our creative agency supports charities<br> globally, using our skills in branding,<br> marketing, and social media to make a <br> positive impact on local communities and <br>raise awareness about important causes. </p>
+    </div>
+</div>
+</div>
+
+Created main container and in the leftand right containers where we flexed them justify content to bring
+them to the center  and set a margin right for the left and margin left for the right also inside the left we crated  another cointainer for the image only and set the width to 
+that container same as the width to the parent container left which is 600px so that vissualy to occupy the whole width of the container.
+also we set border radius of 20px.
+
+
+
+We should escape using positioning for the contaieners to move them because with javascript they are disorted. when javascript is applied to them.
+.partners-container{
+    display: flex;
+    margin-top: 60px;
+    background-color: white;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 40px;
+}
+.partners{
+    margin-right: 80px;
+}
+
+
+
+.partners-container p{
+ line-height: 2rem;
+}
+
+
+.partners-heading{
+    margin-bottom: 20px;
+}
+
+.twitter{
+    background-color: rgb(255, 96, 230);
+ width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+   
+   
+   padding: 40px;
+    
+}
+
+
+
+.pinterest{
+    background-color: rgb(240, 187, 232);
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+   display: none;
+   width: 400px;
+   padding: 40px;
+    
+}
+
+
+Here we removed the positioning from the twitter and pinterest container and we add a margin to the left container 
+.partners{
+    margin-right: 80px;
+}
+
+-When we want the image to be fit perfectly inside the border radius of 50px (thats a circle )we need to make sure the image is same height and width if its not 
+then we need to resize the image in photoshop.
+
+
+
+-Here because there are two blocks just the twitter and the pinterest we dont need to set a condition we can immediately set change the display property of the pinterestBlock
+to block.
+
+
+const btnBack = document.getElementById("button-back");
+const btnNext = document.getElementById("button-next-s"); // Corrected ID
+const pinterestBlock = document.getElementById("pinterest");
+const twitterBlock = document.getElementById("twitter");
+
+btnNext.addEventListener("click", () => {
+    pinterestBlock.style.display = "block";
+    twitterBlock.style.display = "none";
+});
+
+btnBack.addEventListener("click", () => {
+    pinterestBlock.style.display = "none";
+    twitterBlock.style.display = "block";
+});
+
+But if there are 3 blocks and on every click of the botton we need to change the display of the new block we do that with array. where we set all blocks in the array
+and then we incrase +1 (for one the element with the incresed index will be displayed)
+
+
+let currentBlockIndex = 0; // Track the index of the currently displayed block
+
+// Array to hold all block elements
+const blocks = [twitterBlock, pinterestBlock, linkedInBlock];
+
+// Function to hide all blocks except the one at the specified index
+const hideAllBlocksExcept = (index) => {
+    blocks.forEach((block, i) => {
+        if (i !== index) {
+            block.style.display = "none";
+        }
+    });
+};
+
+btnNext.addEventListener("click", () => {
+    // Hide the current block
+    blocks[currentBlockIndex].style.display = "none";
+
+    // Move to the next block index, looping back to the start if at the end
+    currentBlockIndex = (currentBlockIndex + 1) % blocks.length;
+
+    // Show the next block
+    blocks[currentBlockIndex].style.display = "block";
+});
+
+btnBack.addEventListener("click", () => {
+    // Hide the current block
+    blocks[currentBlockIndex].style.display = "none";
+
+    // Move to the previous block index, looping back to the end if at the start
+    currentBlockIndex = (currentBlockIndex - 1 + blocks.length) % blocks.length;
+
+    // Show the previous block
+    blocks[currentBlockIndex].style.display = "block";
+});
+
+// Hide all blocks except the first one initially
+hideAllBlocksExcept(0);
+
+Here first we hide the current one and after incresing the +1 moving to the next (every next from the array ) will be displayed to block.
+
+Then for the back btn we do the same except we go backwards with the displaying the blocks(from the index)every blockIndex-1 from the blocks.length will be displayed.
+(we going backwards decreasing)
+
+
+For the next increasing index for the back decreasing index 
+
+Basically in these cases we always hide the current index(block) then something needs to happen to the index to
+ increase or decrease and then the dicreased block to be displayed.
+
+ 1.Current block(index) is hidden then on increase+1 to the array moving to the next index block that block is displaed then on the next click 
+ on the btn next again the function is triggered from the beggining hiding the current and moving to the next index.
+ So on every click on the btn the current block is hidden and we moving to the next index (block ) then the block is displayd and this circle continues until the
+ end of the array, for the next button.
+
+ 2.The same circle is with the minus btn until we come till the beginning of the array.
+
+-Also we need a function where all blocks will be hidden except the one at specified index.
+
+let currentBlockIndex = 0; // Track the index of the currently displayed block
+
+// Array to hold all block elements
+const blocks = [twitterBlock, pinterestBlock, linkedInBlock];
+
+// Function to hide all blocks except the one at the specified index
+const hideAllBlocksExcept = (index) => {
+    blocks.forEach((block, i) => {
+        if (i !== index) {
+            block.style.display = "none";
+        }
+    });
+};
+
+If the index of the block is not specified index then that block display = none
+
+
+
+
+Media queries for different devices
+
+/* Default styles for all devices */
+
+/* Styles for devices with a maximum width of 767px (e.g., smartphones) */
+@media (max-width: 767px) {
+    /* Your CSS styles for smartphones */
+  }
+  
+  /* Styles for devices with a minimum width of 768px and a maximum width of 991px (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Your CSS styles for tablets */
+  }
+  
+  /* Styles for devices with a minimum width of 992px (e.g., desktops and laptops) */
+  @media (min-width: 992px) {
+    /* Your CSS styles for desktops and laptops */
+  }
+  
+
+
+  /* Default styles for all devices */
+
+/* Styles for devices with a maximum width of 767px (e.g., smartphones) */
+@media (max-width: 767px) {
+    /* Your CSS styles for smartphones */
+  }
+  
+  /* Styles for devices with a minimum width of 768px and a maximum width of 991px (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Your CSS styles for tablets */
+  }
+  
+  /* Styles for devices with a minimum width of 992px and a maximum width of 1199px (e.g., smaller desktops and laptops) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Your CSS styles for smaller desktops and laptops */
+  }
+  
+  /* Styles for devices with a minimum width of 1200px (e.g., larger desktops and laptops) */
+  @media (min-width: 1200px) {
+    /* Your CSS styles for larger desktops and laptops */
+  }
+
+  
+  /* Here with javascript we created anchors so when clicked on any link from the menu the function will be triggerd and  the block we attached the scrollToview
+   function will be displayed (scrolled to with smooth behavior.)
+   -For this we need to take the html elements with the id the menu paragraph and element from the desired section(that will be the beginning of the block where we want to scroll to)
+   On the element that will be the beginning of the block we attach the scroll to view function so when we click on the menu element the block (element that we attached 
+   the scrollToView  function will be displayed scrolled to with smooth behivior.
+   
+   -But remember we must attach scrollToView function to the desired element we want to be scrolled to .
+   So when we click on the menu element the element we attached the scrolledToView fun will be scrolled to.
+   -We always need the desired element to attach the scrollTo View function so that the crollTo View function to lead us to that element.
+
+   charityLink.addEventListener("click",() =>{
+  charityContainer.scrollIntoView({behavior: 'smooth'})
+})
+
+Soo on click on the menu element the function scrollto view will be triggered leading us to the element we attached the function to with a smooth behivior.
+
+
+function showSecondBlock() {
+    secondBlock.style.display = 'flex';
+
+    firstBlock.style.display = 'none';
+}
+
+// Function to remove the class from the second block of people
+function hideSecondBlock() {
+    secondBlock.style.display = 'none';
+   
+    firstBlock.style.display = 'flex';
+}
+
+// Event listener for the next button
+btnNextPpl.addEventListener('click', showSecondBlock);
+
+// Event listener for the back button
+btnBackPpl.addEventListener('click', hideSecondBlock);
+
+Also is working without the classlist just the second block is flexed because it was display hide before
+
+  secondBlock.style.display = 'flex';
+
+So when a block is diplay hide and we want on click on the btn to be displayes instead od display block we set display flex?
+ChatGPT
+Yes, that's correct. In your JavaScript code, you're setting the display property of the second block to 'flex' when you want it to be visible.
+
+javascript
+Copy code
+secondBlock.style.display = 'flex';
+This works because the flex value allows the element to behave as a flex container, which means its children
+(in this case, the .person-one-sec, .person-two-sec, and .person-three-sec elements) can be laid out in a flexbox layout.
+
+You don't necessarily need to use the classList to add or remove a class if you're only toggling between two states of an element's display property. You can directly set the display property to achieve the desired behavior, as you've done here.
+
+So when you want to show the second block of people, you set its display property to 'flex', and when you want to hide it and show the first block of people, you set its display property to 'none'. This approach is perfectly
+valid and efficient for toggling the visibility of elements in your application.
+
+.people-second-block{
+    display: none;
+}
+
+Here thye block is set to display none in our css and if we want the block to get the same form as the first block
+we need to flex the containers inside the second block.(to display flex).
+
+-We can see here that we set all the properties the second container should have same as the first one but the display property is set to none so in our javascript instead
+of display block we use display flex so that the child containers are flexed as the first container.
+
+.people{
+    margin-top: 120px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.people-second-block{
+    margin-top: 120px;
+    width: 1500px;
+    justify-content: space-around;
+    display: none;
+
+}
+
+So in some cases instead of display block we use display flex if there are child containers inside the main container.
+
+
+btnNextPpl.addEventListener("click", ()=>{
+  secondBlock.style.display ="flex";
+  firstBlock.style.display ="none";
+});
+
+btnBackPpl.addEventListener("click", ()=>{
+  secondBlock.style.display ="none";
+  firstBlock.style.display ="flex";
+})
+
+
+As we can see it here we also displayed flex and the second container after was hidden to remain his styling as it was.So sometimes display block is not we use if 
+we want to display an element after hiding it.
+if the element (block ) is contained from other block inside and we want those other blocks to be flexed displayed after the hidden property on click on the button in our javascript
+code the the display of our desired element container should be flex so it keeps the styling we desired for that block + other styling like justify content space between to be applied.
+Because if we set display block the styling wont be as we want it to be. Make sanse.
+Display block is for containers that just need to be displayed as they are and they dont have child elements.
+
+
+
+It seems like the second email input field in your footer is not supported by your JavaScript because it shares the same ID (input-email) as
+the first email input field. IDs must be unique within a document,
+so when you use document.getElementById("input-email"), it always refers to the first occurrence of an element with that ID.
+
+
+
+
+For the mobile version.
+
+
+No matter that the desktop version is displayed none.
+We cant have same classeses to the elements every element needs its unique class .
+
+The mobile version needs to have its unique classes and the desktop version uniqe classes.
+
+Same for the javascript as we see the input element (javascript code worked just for the first html input but not for the second ) becuse we need to create different classes for the second 
+and write a javascript code for that one.
+
+
+Css for the mobile version.
+
+
+@media(max-width: 480px){
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.desktop{
+    display: none;
+}
+
+.banner{
+    background-image: url("images/Hero\ Section.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body{
+    background-color: rgb(248, 245, 240);
+    font-family: sans-serif;
+    color: rgb(56, 55, 55);
+}
+
+
+
+.header-mobile{
+
+ display: flex;
+ justify-content: space-between;
+ padding:10px 20px;
+
+}
+
+
+.logo{
+    width: 120px;
+}
+
+.hamburger{
+    width:80px;
+}
+
+}
+
+As we can se in our css for the mobile version we set the max width of the viewport to 480px
+then the background image for the banner is 412 px because we set it to contain image size. 
+
+Then on the header we dont set any width because we want the header to occupy the natural width. and because the banner is 412 px the header will be 412 too then we add the padding
+to the header so that we let it to have space from the all 4 sides.
+
+Also we need to adjust the height of the banner block  so that it will occupy as much as the photo 30vh.
+So always when we set a background image we must to adjust the height of our block as much as we need.
+
+.banner{
+    background-image: url("images/Hero\ Section.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30vh;
+}
+
+here the height of the block is 30vh enough as the height of the background image.
+
+-Also remember every element needs to have uniqe class naming.- so the stayling the styling to work we cant have same class naming for the mobile and desktop and expect that 
+the styling for the mobile will work.
+
+-Also we need to do the regular hiding and displaying of the classes for the desktop and the mobile in the mobile medi queiery we need to hide the desktop container and display the mobile and other
+way around in the desktop styling we need to hide the mobile block and display the desktop block, same for the footer.
+
+
+
+.main-heading-paragraph-mobile{
+    background-image: url('images/Line.png');
+    font-size: 0.9rem;
+    background-repeat: no-repeat;
+    color: rgb(56, 55, 55);
+    background-position: center left;
+    text-align: center;
+    background-size: 190px;
+    margin-top: 100px;
+}
+
+
+-Also here as we could see. We created the mobile version div container where also for the background size when needed we can set it also to pixels bacuse not always the 
+the contain resizing is enought. Sometimes we need smaller elements.
+
+But resizing background in pixels is not reccomended because if its a background image of a block it
+will be cutted on different viewport sizes so we set it to contain or cover  and resizing just for small background images in pixels.
+
+
+.banner{
+    background-image: url("images/Hero\ Section.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+   
+}
+
+
+-Here also we adjust the banner height to 50vh because there are other elements inside the container and we need more height so that the other conteiners wont,
+overlap with the banner elements container.
+
+
+Remember always setting diffrent naming from the desktop for the mobile classes .So that the stayling to work.
+
+
+Also if we can see here that we could add to the background position in pixels how much we want to move the background image here we set the position to bottom and right 
+80 px as the design required.
+
+.heading-inside-mobile{
+   text-align: center;
+    font-size: 0.9rem;
+    background-image: url("images/underline.svg");
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: bottom  right 80px;
+}
+
+
+We need to escape using wdth on containers for the mobile version and let them occupy the natural width of the viewport.
+
+So always when we work on the mobile version and if we wantr to resize the child containers first we need to flex the parent container with flex diraction column and align
+items center and to bring all child containers in the center horizontally and
+then we bneed to set the width of the child container to 360px in this case because we want the background to be visible.
+Also we need to ajust the text in our HTML file.
+
+parent container
+.partners-mobile{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+child container
+
+.twitter-mobile{
+    
+    padding: 20px 0px;
+    line-height: 2rem;
+    border-radius: 40px;
+    width: 320px;
+}
+
+So the main (p[arent container for the mobile version must be flexed and flex iraction  colum and then with align items to bring it to the center . also 
+the child containers width can be ajust how we wont and the html text.
+
+
+.content-section-three{
+    background-image: url("images/How\ we\ Work\ Section\ -\ 3.svg");
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1rem;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+Here we can see that we set the background of one container and we flexed the container with diraction of colum and align items center and justify content center so that the 
+heading will have the background image and will be centered inisde that background image.
+
+
+When working for the mobile version we dont need to flex the elements like here with the partners we can  set them to column and in the array with the display.none one element will be hidden and the 
+other element will come to his place. also for the desktop vrsion escaping using position relative to move blocks because with javascript they will be disorted.
+
+REMEMBER!
+
+WHEN WE EXTRACT THE VALUE FROM A INPUT FIELD AND THEN WE CHECL WITH THE CONDITION IF THE VALUE IS SAME AS THE REGEX THE VALUE VARIABLE THAT WE CREATE ALWAYS NEEDS TO BE
+INSIDE THE FUNCTION BECAUSE THE FUNCTION CHECKS IF THE VALUE THE USER TYPED IS SAME AS THE REGEX. ALSO THE REGEX VARIABLE NEEDS TO BE IN THE SAME SCOPE AS THE EVENT LISTENER 
+
+
+const joinBtnMobileDown = document.getElementById("join-btn-email-down-mobile");
+
+
+joinBtnMobileDown.addEventListener("click",()=>{
+  const regexEmailDown = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+  let inputValueMobileDown = inputMobileDown.value;
+  
+  if(regexEmailDown.test(inputValueMobileDown)){
+    window.location.href = "success_msg_mobile.html";
+  }
+});
+
+
+//For the tablet design:
+
+
+Here where we came to the people container and the diffrent blocks inside the people container are adjusted as to fit the tablet preferences.
+Like here. 
+
+.people-tablet{
+    margin-top: 120px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.people-second-block-tablet{
+    margin-top: 120px;
+    width: 1000px;
+    justify-content: space-around;
+    display: none;
+
+}
+
+.person-one-tablet,
+.person-two-tablet,
+.person-three-tablet{
+    background-color: rgb(240, 187, 232);
+    padding: 50px;
+    border-radius: 50px;
+    width: 202px;
+}
+
+We set the width od the each container to 222px so that will fit the tablet view. and the space around separates the containers where the main container(parent)) is
+set to 100px so that it will allow space for the child containers to arrange with jusstify content - space around.
+
+-One more thing on the blocks the background image needs to be set to contain so when resizing the browsers width the background image to be resized too.
+
+.section-three{
+    background-image: url("images/How\ we\ Work\ Section\ -\ 3.svg");
+    height: 115vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1.5rem;
+   
+}
+
+-So keep in mind the background images to the blocks to be set to contain.
+
+
+-Always to test your website on devices so that sometimes we need to adjust the margins of the blocks for example for the tablet here we needed to ajust the height of the blocks
+as the margins so that they wont overlap.
+
+Especially when we  have background images of the blocks the height must be ajusted.
+
+
+
+
+
+Yes, you're correct. If you tried to implement the array method with an index for toggling between two blocks in the second event listener,
+it might not have worked as expected because the logic for cycling through an array isn't necessary when dealing with just two elements.
+
+
+//Partners block:
+
+
+const buttonBackTablet = document.getElementById("button-back-tablet");
+
+const buttonNextTablet = document.getElementById("button-next-s-tablet");
+
+const twitterBlockTablet = document.getElementById("twitter-tablet");
+
+const pinterestBlockTablet = document.getElementById("pinterest-tablet");
+
+const linkedInBlockTablet = document.getElementById("linkedin-tablet");
+
+
+const blocksTabletPartners = [twitterBlockTablet, pinterestBlockTablet, linkedInBlockTablet];
+
+let currentIndexTablet = 0;
+
+buttonNextTablet.addEventListener("click", () => {
+
+  blocksTabletPartners[currentIndexTablet].style.display= "none";
+
+  currentIndexTablet = (currentIndexTablet + 1) % blocksTabletPartners.length;
+
+  blocksTabletPartners[currentIndexTablet].style.display = 'block';
+});
+
+
+buttonBackTablet.addEventListener("click", ()=> {
+
+  blocksTabletPartners[currentIndexTablet].style.display = "none";
+
+  currentIndexTablet = (currentIndexTablet - 1 + blocksTabletPartners.length) % blocksTabletPartners.length;
+
+  blocksTabletPartners[currentIndexTablet].style.display = "block";
+
+
+});
+
+//People tablet :
+
+const firstBlockPplTablet = document.getElementById("first-block-people-tablet");
+
+const secondBlockPplTablet = document.getElementById("second-block-people-tablet");
+
+const btnNextPplTablet = document.getElementById("button-next-ppl-tablet");
+
+const btnBackPplTablet = document.getElementById("button-back-ppl-tablet");
+
+
+
+btnNextPplTablet.addEventListener("click", ()=>{
+
+  firstBlockPplTablet.style.display = "none";
+  secondBlockPplTablet.style.display = "flex";
+});
+
+btnBackPplTablet.addEventListener("click",()=>{
+  secondBlockPplTablet.style.display = "none";
+  firstBlockPplTablet.style.display = "flex";
+});
